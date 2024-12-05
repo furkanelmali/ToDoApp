@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 
-namespace ToDo.Models
+namespace ToDoDemo.Models
 {
     public class ToDoContext : DbContext
     {
@@ -14,9 +14,11 @@ namespace ToDo.Models
         //seed data
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            base.OnModelCreating(modelBuilder);
+
             modelBuilder.Entity<Category>().HasData
                 (
-                    new Category {CategoryId =  "work", Name="Work" },
+                    new Category { CategoryId =  "work", Name="Work" },
                     new Category { CategoryId = "home", Name = "Home" },
                     new Category { CategoryId = "ex", Name = "Exercise" },
                     new Category { CategoryId = "shop", Name = "Shopping" },

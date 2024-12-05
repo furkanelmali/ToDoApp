@@ -4739,9 +4739,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Furkan Elmalı\\Documents\\GitHub\\ToDoApp\\ToDo\\ToDo.csproj",
-      "projectName": "ToDo",
-      "projectPath": "C:\\Users\\Furkan Elmalı\\Documents\\GitHub\\ToDoApp\\ToDo\\ToDo.csproj",
+      "projectUniqueName": "C:\\Users\\Furkan Elmalı\\Documents\\GitHub\\ToDoApp\\ToDo\\ToDoDemo.csproj",
+      "projectName": "ToDoDemo",
+      "projectPath": "C:\\Users\\Furkan Elmalı\\Documents\\GitHub\\ToDoApp\\ToDo\\ToDoDemo.csproj",
       "packagesPath": "C:\\Users\\Furkan Elmalı\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Furkan Elmalı\\Documents\\GitHub\\ToDoApp\\ToDo\\obj\\",
       "projectStyle": "PackageReference",

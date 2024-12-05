@@ -5,15 +5,15 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using ToDo.Models;
+using ToDoDemo.Models;
 
 #nullable disable
 
-namespace ToDo.Migrations
+namespace ToDoDemo.Migrations
 {
     [DbContext(typeof(ToDoContext))]
-    [Migration("20241204143334_initial")]
-    partial class initial
+    [Migration("20241205090810_Initial")]
+    partial class Initial
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
