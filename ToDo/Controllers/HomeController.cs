@@ -86,12 +86,13 @@ namespace ToDoDemo.Controllers
 
 
         [HttpPost]
-        public IActionResult Filter(string[] filter) 
+        public IActionResult Filter(string categoryFilter, string dueFilter, string statusFilter)
         {
-            string id = string.Join('-', filter);
-            return RedirectToAction("Index", new {ID = id});
+           
+            var filters = new[] { categoryFilter, dueFilter, statusFilter };
+            string id = string.Join('-', filters);
+            return RedirectToAction("Index", new { ID = id });
         }
-
         [HttpPost]
         public IActionResult MarkComplete([FromRoute] string id, ToDo selected)
         {
